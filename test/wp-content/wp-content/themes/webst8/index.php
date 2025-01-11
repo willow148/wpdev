@@ -5,7 +5,7 @@
     <title>ウェブストエイト</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mystyle.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" ></script>
   </head>
@@ -37,7 +37,7 @@
       </nav>
     </header>
     <div id="top-vg" class="container-fluid">
-      <img src="images/top.jpeg" alt="トップページ画像" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/top.jpeg" alt="トップページ画像" />
     </div>
     <section id="content">
       <div id="content-wrap" class="container row pt-3">
@@ -47,12 +47,12 @@
           <p>スタンダードコースとライトコースから選択して受講できます。</p>
           <div class="row">
             <div class="col-md-6">
-              <p><img src="images/pc-wood.jpg" alt="スタンダードコース" /></p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/images/pc-wood.jpg" alt="スタンダードコース" /></p>
               <h2 class="text-center">スタンダードコース</h2>
               <p>ホームページ作成からWeb集客まで一通り習得して売上拡大したい方向けのコース</p>
             </div>
             <div class="col-md-6">
-              <p><img src="images/pc-leaf.jpg" alt="ライトコース" /></p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/images/pc-leaf.jpg" alt="ライトコース" /></p>
               <h2 class="text-center">ライトコース</h2>
               <p>特定範囲のみ習いたい・まずは試しに受講してみたい方向けのコース</p>
             </div>
@@ -62,11 +62,11 @@
         <div id="sidebar" class="col-md-3">
           <section>
             <h2>個別指導ホームページ作成教室</h2>
-            <p><img src="images/webst8-banar.png" alt="バナー画像" /></p>
+            <p><img src="<?php echo get_template_directory_uri(); ?>/images/webst8-banar.png" alt="バナー画像" /></p>
           </section>
           <section>
             <h2>YouTubeチャンネル開設</h2>
-            <p><img src="images/webst8-youtube.png" alt="WEBST8のYouTubeチャンネル画像" /></p>
+            <p><img src="<?php echo get_template_directory_uri(); ?>/images/webst8-youtube.png" alt="WEBST8のYouTubeチャンネル画像" /></p>
           </section>
         </div>
       </div>
